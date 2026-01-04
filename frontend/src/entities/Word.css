@@ -1,0 +1,9 @@
+.word {
+  cursor: pointer;
+  transition: opacity 0.2s;
+  opacity: 1;
+
+  &.hidden {
+    opacity: 0;
+  }
+}
